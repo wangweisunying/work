@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="878.0" prefWidth="1509.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Production.LectinZoomer_UIController">
+    <stylesheets>
+        <URL value="@lectinzoomer_ui.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="88.0" layoutY="32.0" prefHeight="34.0" prefWidth="185.0" text="BARLEY_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="66.0" prefHeight="34.0" prefWidth="185.0" text="BELL_PEPPER_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="134.0" prefHeight="34.0" prefWidth="185.0" text="CORN_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="100.0" prefHeight="34.0" prefWidth="185.0" text="CHICKPEA_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="236.0" prefHeight="34.0" prefWidth="185.0" text="LIMA_BEAN_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="270.0" prefHeight="34.0" prefWidth="185.0" text="MUNG_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="202.0" prefHeight="34.0" prefWidth="185.0" text="LENTIL_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="168.0" prefHeight="34.0" prefWidth="185.0" text="CUCUMBER_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="338.0" prefHeight="34.0" prefWidth="185.0" text="PEANUT_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="372.0" prefHeight="34.0" prefWidth="185.0" text="POTATO_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="474.0" prefHeight="34.0" prefWidth="185.0" text="SOYBEAN_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="542.0" prefHeight="34.0" prefWidth="185.0" text="KIDNEY_BEAN_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="406.0" prefHeight="34.0" prefWidth="185.0" text="RICE_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="304.0" prefHeight="34.0" prefWidth="185.0" text="PEA_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="440.0" prefHeight="34.0" prefWidth="185.0" text="RYE_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="508.0" prefHeight="34.0" prefWidth="185.0" text="TOMATO_LECTIN_IGG" />
+      <Label layoutX="88.0" layoutY="780.0" prefHeight="34.0" prefWidth="185.0" text="BELL_PEPPER_AQUAPORIN_IGG" /> 
+      <Label layoutX="88.0" layoutY="746.0" prefHeight="34.0" prefWidth="185.0" text="POTATO_AQUAPORIN_IGG" /> 
+      <Label layoutX="88.0" layoutY="576.0" prefHeight="34.0" prefWidth="185.0" text="CORN_AQUAPORIN_IGG" />  
+      <Label layoutX="88.0" layoutY="712.0" prefHeight="34.0" prefWidth="185.0" text="TOMATO_AQUAPORIN_IGG" />
+      <Label layoutX="88.0" layoutY="644.0" prefHeight="34.0" prefWidth="185.0" text="SPINACH_AQUAPORIN_IGG" />
+      <Label layoutX="88.0" layoutY="610.0" prefHeight="34.0" prefWidth="185.0" text="SOYBEAN_AQUAPORIN_IGG" />   
+      <Label layoutX="88.0" layoutY="678.0" prefHeight="34.0" prefWidth="185.0" text="TOBACCO_AQUAPORIN_IGG" />
+      <TextField fx:id="tf_g1" layoutX="273.0" layoutY="37.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g2" layoutX="273.0" layoutY="71.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g3" layoutX="273.0" layoutY="105.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g4" layoutX="273.0" layoutY="139.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g5" layoutX="273.0" layoutY="173.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g6" layoutX="273.0" layoutY="207.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g7" layoutX="273.0" layoutY="241.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g8" layoutX="273.0" layoutY="275.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g9" layoutX="273.0" layoutY="309.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g10" layoutX="273.0" layoutY="343.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g11" layoutX="273.0" layoutY="377.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g12" layoutX="273.0" layoutY="411.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g13" layoutX="273.0" layoutY="445.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g14" layoutX="273.0" layoutY="479.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g15" layoutX="273.0" layoutY="513.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g16" layoutX="273.0" layoutY="547.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g17" layoutX="273.0" layoutY="581.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g18" layoutX="273.0" layoutY="615.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g19" layoutX="273.0" layoutY="649.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g20" layoutX="273.0" layoutY="683.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g21" layoutX="273.0" layoutY="717.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g22" layoutX="273.0" layoutY="751.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_g23" layoutX="273.0" layoutY="785.0" prefHeight="25.0" prefWidth="73.0" />
+      
+      
+      <TextField fx:id="tf_a1" layoutX="572.0" layoutY="38.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a2" layoutX="572.0" layoutY="72.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a3" layoutX="572.0" layoutY="106.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a4" layoutX="572.0" layoutY="140.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a5" layoutX="572.0" layoutY="174.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a6" layoutX="572.0" layoutY="208.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a7" layoutX="572.0" layoutY="242.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a8" layoutX="572.0" layoutY="276.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a9" layoutX="572.0" layoutY="310.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a10" layoutX="572.0" layoutY="344.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a11" layoutX="572.0" layoutY="378.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a12" layoutX="572.0" layoutY="412.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a13" layoutX="572.0" layoutY="446.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a14" layoutX="572.0" layoutY="480.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a15" layoutX="572.0" layoutY="514.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a16" layoutX="572.0" layoutY="548.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a17" layoutX="572.0" layoutY="582.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a18" layoutX="572.0" layoutY="616.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a19" layoutX="572.0" layoutY="650.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a20" layoutX="572.0" layoutY="684.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a21" layoutX="572.0" layoutY="718.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a22" layoutX="572.0" layoutY="752.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="tf_a23" layoutX="572.0" layoutY="786.0" prefHeight="25.0" prefWidth="73.0" />
+      
+      
+      
+      <Label layoutX="387.0" layoutY="611.0" prefHeight="34.0" prefWidth="185.0" text="SOYBEAN_AQUAPORIN_IGA" />
+      <Label layoutX="387.0" layoutY="645.0" prefHeight="34.0" prefWidth="185.0" text="SPINACH_AQUAPORIN_IGA" />
+      <Label layoutX="387.0" layoutY="67.0" prefHeight="34.0" prefWidth="185.0" text="BELL_PEPPER_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="713.0" prefHeight="34.0" prefWidth="185.0" text="TOMATO_AQUAPORIN_IGA" />
+      <Label layoutX="387.0" layoutY="577.0" prefHeight="34.0" prefWidth="185.0" text="CORN_AQUAPORIN_IGA" />
+      <Label layoutX="387.0" layoutY="781.0" prefHeight="34.0" prefWidth="185.0" text="BELL_PEPPER_AQUAPORIN_IGA" />
+      <Label layoutX="387.0" layoutY="509.0" prefHeight="34.0" prefWidth="185.0" text="TOMATO_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="747.0" prefHeight="34.0" prefWidth="185.0" text="POTATO_AQUAPORIN_IGA" />
+      <Label layoutX="387.0" layoutY="271.0" prefHeight="34.0" prefWidth="185.0" text="MUNG_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="135.0" prefHeight="34.0" prefWidth="185.0" text="CORN_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="169.0" prefHeight="34.0" prefWidth="185.0" text="CUCUMBER_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="407.0" prefHeight="34.0" prefWidth="185.0" text="RICE_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="373.0" prefHeight="34.0" prefWidth="185.0" text="POTATO_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="305.0" prefHeight="34.0" prefWidth="185.0" text="PEA_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="543.0" prefHeight="34.0" prefWidth="185.0" text="KIDNEY_BEAN_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="339.0" prefHeight="34.0" prefWidth="185.0" text="PEANUT_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="679.0" prefHeight="34.0" prefWidth="185.0" text="TOBACCO_AQUAPORIN_IGA" />
+      <Label layoutX="387.0" layoutY="101.0" prefHeight="34.0" prefWidth="185.0" text="CHICKPEA_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="203.0" prefHeight="34.0" prefWidth="185.0" text="LENTIL_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="475.0" prefHeight="34.0" prefWidth="185.0" text="SOYBEAN_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="33.0" prefHeight="34.0" prefWidth="185.0" text="BARLEY_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="237.0" prefHeight="34.0" prefWidth="185.0" text="LIMA_BEAN_LECTIN_IGA" />
+      <Label layoutX="387.0" layoutY="441.0" prefHeight="34.0" prefWidth="185.0" text="RYE_LECTIN_IGA" />
+      <TableView fx:id="table" layoutX="703.0" layoutY="34.0" prefHeight="552.0" prefWidth="613.0">
+        <columns>
+            <TableColumn fx:id="testCode_tc" prefWidth="143.0" text="Test Code" />
+            <TableColumn fx:id="name_tc" prefWidth="151.0" text="Name" />
+            <TableColumn fx:id="curJun_tc" prefWidth="98.0" text="JulienBarcode" />
+            <TableColumn fx:id="curUnit_tc" prefWidth="82.0" text="Current Unit" />
+            <TableColumn fx:id="preJun_tc" prefWidth="77.0" text="PreBarcode" />
+            <TableColumn fx:id="preUnit_tc" prefWidth="60.0" text="Pre Unit" />
+        </columns>
+      </TableView>
+      <Button fx:id="Recalculate_btn" layoutX="742.0" layoutY="769.0" mnemonicParsing="false" onAction="#recalculate_action" prefHeight="41.0" prefWidth="83.0" text="Recalculate" />
+      <Button fx:id="insert_btn" layoutX="867.0" layoutY="769.0" mnemonicParsing="false" onAction="#insert_action" prefHeight="41.0" prefWidth="83.0" text="Insert toDB" />
+      <TextArea fx:id="log_ta" layoutX="703.0" layoutY="615.0" prefHeight="140.0" prefWidth="613.0" />
+   </children>
+</AnchorPane>
